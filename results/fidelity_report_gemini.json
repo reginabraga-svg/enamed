@@ -1,0 +1,1886 @@
+{
+  "model": "gemini-3.5-flash",
+  "n": 60,
+  "arms": {
+    "gemini_grounded": {
+      "n_courses": 60,
+      "n_failed": 0,
+      "numbers_total": 503,
+      "numbers_ungrounded": 9,
+      "micro_fidelity": 0.9821,
+      "n_courses_fully_grounded": 51,
+      "pct_courses_fully_grounded": 0.85,
+      "per_course": [
+        {
+          "course_code": 12,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 140,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 303,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        },
+        {
+          "course_code": 389,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 484,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 758,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 868,
+          "n_numbers": 8,
+          "n_grounded": 8,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1026,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1107,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1439,
+          "n_numbers": 3,
+          "n_grounded": 3,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1518,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1629,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1725,
+          "n_numbers": 3,
+          "n_grounded": 3,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1879,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2304,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2348,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2392,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2695,
+          "n_numbers": 7,
+          "n_grounded": 6,
+          "ungrounded": [
+            2.8
+          ]
+        },
+        {
+          "course_code": 2918,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3148,
+          "n_numbers": 14,
+          "n_grounded": 14,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3418,
+          "n_numbers": 15,
+          "n_grounded": 15,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3677,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4082,
+          "n_numbers": 10,
+          "n_grounded": 10,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4503,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4720,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5206,
+          "n_numbers": 4,
+          "n_grounded": 3,
+          "ungrounded": [
+            65.1
+          ]
+        },
+        {
+          "course_code": 5345,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5909,
+          "n_numbers": 6,
+          "n_grounded": 5,
+          "ungrounded": [
+            76.0
+          ]
+        },
+        {
+          "course_code": 5920,
+          "n_numbers": 4,
+          "n_grounded": 3,
+          "ungrounded": [
+            6.0
+          ]
+        },
+        {
+          "course_code": 6496,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 6711,
+          "n_numbers": 5,
+          "n_grounded": 4,
+          "ungrounded": [
+            87.0
+          ]
+        },
+        {
+          "course_code": 7105,
+          "n_numbers": 12,
+          "n_grounded": 12,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7414,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7676,
+          "n_numbers": 8,
+          "n_grounded": 7,
+          "ungrounded": [
+            7.0
+          ]
+        },
+        {
+          "course_code": 7705,
+          "n_numbers": 4,
+          "n_grounded": 3,
+          "ungrounded": [
+            65.1
+          ]
+        },
+        {
+          "course_code": 7837,
+          "n_numbers": 12,
+          "n_grounded": 12,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8437,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8554,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8698,
+          "n_numbers": 10,
+          "n_grounded": 10,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8960,
+          "n_numbers": 4,
+          "n_grounded": 3,
+          "ungrounded": [
+            65.1
+          ]
+        },
+        {
+          "course_code": 9326,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9772,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9805,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9988,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9996,
+          "n_numbers": 8,
+          "n_grounded": 8,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10222,
+          "n_numbers": 4,
+          "n_grounded": 3,
+          "ungrounded": [
+            8.9
+          ]
+        },
+        {
+          "course_code": 10224,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10289,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10591,
+          "n_numbers": 14,
+          "n_grounded": 14,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11114,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11233,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11316,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11446,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12015,
+          "n_numbers": 8,
+          "n_grounded": 8,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12345,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12569,
+          "n_numbers": 10,
+          "n_grounded": 10,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12692,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12813,
+          "n_numbers": 15,
+          "n_grounded": 15,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12970,
+          "n_numbers": 13,
+          "n_grounded": 13,
+          "ungrounded": []
+        },
+        {
+          "course_code": 13103,
+          "n_numbers": 12,
+          "n_grounded": 12,
+          "ungrounded": []
+        }
+      ]
+    },
+    "gemini_open": {
+      "n_courses": 60,
+      "n_failed": 0,
+      "numbers_total": 357,
+      "numbers_ungrounded": 63,
+      "micro_fidelity": 0.8235,
+      "n_courses_fully_grounded": 33,
+      "pct_courses_fully_grounded": 0.55,
+      "per_course": [
+        {
+          "course_code": 12,
+          "n_numbers": 11,
+          "n_grounded": 8,
+          "ungrounded": [
+            20.0,
+            25.0,
+            1.0
+          ]
+        },
+        {
+          "course_code": 140,
+          "n_numbers": 2,
+          "n_grounded": 2,
+          "ungrounded": []
+        },
+        {
+          "course_code": 303,
+          "n_numbers": 11,
+          "n_grounded": 9,
+          "ungrounded": [
+            15.0,
+            20.0
+          ]
+        },
+        {
+          "course_code": 389,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 484,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 758,
+          "n_numbers": 13,
+          "n_grounded": 9,
+          "ungrounded": [
+            1.0,
+            60.0,
+            25.0,
+            75.0
+          ]
+        },
+        {
+          "course_code": 868,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1026,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1107,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1439,
+          "n_numbers": 8,
+          "n_grounded": 5,
+          "ungrounded": [
+            1.0,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "course_code": 1518,
+          "n_numbers": 2,
+          "n_grounded": 2,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1629,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1725,
+          "n_numbers": 6,
+          "n_grounded": 5,
+          "ungrounded": [
+            63.0
+          ]
+        },
+        {
+          "course_code": 1879,
+          "n_numbers": 8,
+          "n_grounded": 7,
+          "ungrounded": [
+            5.0
+          ]
+        },
+        {
+          "course_code": 2304,
+          "n_numbers": 6,
+          "n_grounded": 6,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2348,
+          "n_numbers": 13,
+          "n_grounded": 10,
+          "ungrounded": [
+            1.0,
+            25.0,
+            30.0
+          ]
+        },
+        {
+          "course_code": 2392,
+          "n_numbers": 8,
+          "n_grounded": 6,
+          "ungrounded": [
+            1.0,
+            75.0
+          ]
+        },
+        {
+          "course_code": 2695,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2918,
+          "n_numbers": 8,
+          "n_grounded": 6,
+          "ungrounded": [
+            1.0,
+            12.0
+          ]
+        },
+        {
+          "course_code": 3148,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3418,
+          "n_numbers": 10,
+          "n_grounded": 8,
+          "ungrounded": [
+            15.0,
+            20.0
+          ]
+        },
+        {
+          "course_code": 3677,
+          "n_numbers": 8,
+          "n_grounded": 4,
+          "ungrounded": [
+            1.0,
+            100.0,
+            100.0,
+            50.0
+          ]
+        },
+        {
+          "course_code": 4082,
+          "n_numbers": 7,
+          "n_grounded": 6,
+          "ungrounded": [
+            60.0
+          ]
+        },
+        {
+          "course_code": 4503,
+          "n_numbers": 3,
+          "n_grounded": 3,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4720,
+          "n_numbers": 13,
+          "n_grounded": 10,
+          "ungrounded": [
+            15.0,
+            20.0,
+            1.0
+          ]
+        },
+        {
+          "course_code": 5206,
+          "n_numbers": 2,
+          "n_grounded": 2,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5345,
+          "n_numbers": 14,
+          "n_grounded": 8,
+          "ungrounded": [
+            1.0,
+            25.0,
+            30.0,
+            70.0,
+            75.0,
+            50.0
+          ]
+        },
+        {
+          "course_code": 5909,
+          "n_numbers": 10,
+          "n_grounded": 9,
+          "ungrounded": [
+            1.0
+          ]
+        },
+        {
+          "course_code": 5920,
+          "n_numbers": 10,
+          "n_grounded": 8,
+          "ungrounded": [
+            100.0,
+            1.0
+          ]
+        },
+        {
+          "course_code": 6496,
+          "n_numbers": 9,
+          "n_grounded": 8,
+          "ungrounded": [
+            100.0
+          ]
+        },
+        {
+          "course_code": 6711,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7105,
+          "n_numbers": 3,
+          "n_grounded": 3,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7414,
+          "n_numbers": 9,
+          "n_grounded": 7,
+          "ungrounded": [
+            62.0,
+            68.0
+          ]
+        },
+        {
+          "course_code": 7676,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7705,
+          "n_numbers": 11,
+          "n_grounded": 8,
+          "ungrounded": [
+            1.0,
+            15.0,
+            20.0
+          ]
+        },
+        {
+          "course_code": 7837,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8437,
+          "n_numbers": 12,
+          "n_grounded": 9,
+          "ungrounded": [
+            60.0,
+            15.0,
+            20.0
+          ]
+        },
+        {
+          "course_code": 8554,
+          "n_numbers": 5,
+          "n_grounded": 3,
+          "ungrounded": [
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "course_code": 8698,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8960,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9326,
+          "n_numbers": 5,
+          "n_grounded": 5,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9772,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9805,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9988,
+          "n_numbers": 7,
+          "n_grounded": 4,
+          "ungrounded": [
+            100.0,
+            100.0,
+            7.0
+          ]
+        },
+        {
+          "course_code": 9996,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10222,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10224,
+          "n_numbers": 2,
+          "n_grounded": 2,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10289,
+          "n_numbers": 10,
+          "n_grounded": 9,
+          "ungrounded": [
+            40.0
+          ]
+        },
+        {
+          "course_code": 10591,
+          "n_numbers": 6,
+          "n_grounded": 6,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11114,
+          "n_numbers": 15,
+          "n_grounded": 11,
+          "ungrounded": [
+            60.0,
+            15.0,
+            20.0,
+            1.0
+          ]
+        },
+        {
+          "course_code": 11233,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11316,
+          "n_numbers": 6,
+          "n_grounded": 5,
+          "ungrounded": [
+            1.0
+          ]
+        },
+        {
+          "course_code": 11446,
+          "n_numbers": 6,
+          "n_grounded": 5,
+          "ungrounded": [
+            1.0
+          ]
+        },
+        {
+          "course_code": 12015,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12345,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12569,
+          "n_numbers": 9,
+          "n_grounded": 7,
+          "ungrounded": [
+            1.0,
+            6.5
+          ]
+        },
+        {
+          "course_code": 12692,
+          "n_numbers": 1,
+          "n_grounded": 1,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12813,
+          "n_numbers": 4,
+          "n_grounded": 4,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12970,
+          "n_numbers": 8,
+          "n_grounded": 8,
+          "ungrounded": []
+        },
+        {
+          "course_code": 13103,
+          "n_numbers": 3,
+          "n_grounded": 3,
+          "ungrounded": []
+        }
+      ]
+    },
+    "local_offline": {
+      "n_courses": 60,
+      "n_failed": 0,
+      "numbers_total": 534,
+      "numbers_ungrounded": 0,
+      "micro_fidelity": 1.0,
+      "n_courses_fully_grounded": 60,
+      "pct_courses_fully_grounded": 1.0,
+      "per_course": [
+        {
+          "course_code": 12,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 140,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 303,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 389,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 484,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 758,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 868,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1026,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1107,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1439,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1518,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1629,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1725,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 1879,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2304,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2348,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2392,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2695,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 2918,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3148,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3418,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        },
+        {
+          "course_code": 3677,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4082,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4503,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 4720,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5206,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5345,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5909,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 5920,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 6496,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 6711,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7105,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7414,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7676,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7705,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 7837,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8437,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8554,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8698,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 8960,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9326,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9772,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9805,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9988,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 9996,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10222,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10224,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10289,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 10591,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11114,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11233,
+          "n_numbers": 7,
+          "n_grounded": 7,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11316,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 11446,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12015,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12345,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12569,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12692,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12813,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 12970,
+          "n_numbers": 9,
+          "n_grounded": 9,
+          "ungrounded": []
+        },
+        {
+          "course_code": 13103,
+          "n_numbers": 11,
+          "n_grounded": 11,
+          "ungrounded": []
+        }
+      ]
+    },
+    "naive_offline": {
+      "n_courses": 60,
+      "n_failed": 0,
+      "numbers_total": 360,
+      "numbers_ungrounded": 228,
+      "micro_fidelity": 0.3667,
+      "n_courses_fully_grounded": 0,
+      "pct_courses_fully_grounded": 0.0,
+      "per_course": [
+        {
+          "course_code": 12,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 140,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 303,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 389,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 484,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 758,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 868,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1026,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1107,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1439,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1518,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1629,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1725,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 1879,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 2304,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 2348,
+          "n_numbers": 6,
+          "n_grounded": 4,
+          "ungrounded": [
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 2392,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 2695,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 2918,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 3148,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 3418,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 3677,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 4082,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 4503,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 4720,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 5206,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 5345,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 5909,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 5920,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 6496,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 6711,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 7105,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 7414,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 7676,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0
+          ]
+        },
+        {
+          "course_code": 7705,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 7837,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 8437,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 8554,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 8698,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0
+          ]
+        },
+        {
+          "course_code": 8960,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 9326,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 9772,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 9805,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 9988,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0
+          ]
+        },
+        {
+          "course_code": 9996,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 10222,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 10224,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 10289,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 10591,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 11114,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 11233,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 11316,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 11446,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12015,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12345,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12569,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12692,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12813,
+          "n_numbers": 6,
+          "n_grounded": 3,
+          "ungrounded": [
+            72.5,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 12970,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        },
+        {
+          "course_code": 13103,
+          "n_numbers": 6,
+          "n_grounded": 2,
+          "ungrounded": [
+            72.5,
+            82.0,
+            128.0,
+            4.6
+          ]
+        }
+      ]
+    }
+  }
+}
