@@ -1,0 +1,21 @@
+{
+  "code/audit_predictive.py": "6597787dd62572110a753250f9a53cf00d5cddd5b4595456048e3b678c7e783e",
+  "code/dashboard.py": "53de81831dd8c3d2d383caa3797948da510ae45adc5720b8f95ffa30b4db5516",
+  "code/fidelity_check.py": "407ada8b504298db1c48cacc2a5811ec223c0356df00823ee9493e0149efa96b",
+  "code/llm_explainer.py": "fe4ff7de9c4e1d531bdbd1461a00bf38eece54c8a47d9ca7bc506afe00f52ddc",
+  "code/rebuild_payloads.py": "2ddcf74da01fb67e75b455b57d1c856fefa3a36c0454782193bf3c62a4c7413a",
+  "code/run_gemini_fidelity_local.py": "3aef415ede741f89a6d4b1d6fc818fe6d4cff15b6bc7f48f24f0f3975c5bae89",
+  "data/course_payloads.json": "6e49d106bb27cc4f6d839a6e998022e372bcfc78d44011121f63d9953ae336f6",
+  "data/full_fit.json": "86336c997db63857da8c9121e61fb03b9762322d3b5a1d16e7dc552c3e953cee",
+  "figures/accuracy.png": "0d0ef805c89a0360d7d6deb379e646b48b436dbccb1154e69f9195f0bf81e7de",
+  "figures/architecture.png": "898a7260f22b0f584c3346c7d4f9d001272c9765b4dac6b03c21143d273085c2",
+  "figures/dashboard.png": "b07f57bd550eea9d66aadacafbbc28c3309d80388cdee0a46a855000657ef0a5",
+  "figures/distribution.png": "be2d0a49f623fa2162d3c1adc1518ef5867b3cdf81e145d03d294a37d5143550",
+  "figures/local.png": "72c7108cb6efafbe5723ae9d6d63b277e59a202707181ee48d7d58e442c0a899",
+  "README.md": "e017bb638d3a73ac4fd1953e128a01321c8d6cc60b8356b653e46444f0fc2f57",
+  "requirements.txt": "d8b2a6d7a79de1d0610d437485d8ece36786c82ff1bdc7cd958c6b700daf39f1",
+  "results/fidelity_report_gemini.json": "cde0f60eb8f0e878914fc2d665d8aa971d9b1b4325dab87d36d07f206ba32a05",
+  "results/fidelity_report_real.json": "376f870dd9f909440c8139a8269819c437fcc3a3408e4eddf3b2c8decff9d8d0",
+  "results/oof_predictions.csv": "d22b75b20720673c6f2ea7b229c59b97baa0f874f75aa988d563921a8b7d6572",
+  "results/predictive_audit.json": "a9237ecfd819e9bc028693569368f51c64c6782dba1999a33e236b478fe63b7e"
+}
