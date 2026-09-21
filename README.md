@@ -1,4 +1,4 @@
-# ENAMED 2025 institutional audit — supplementary evaluation
+# ENAMED 2025 institutional audit — supplementary evaluation v8
 
 This review package contains real course-level results, executable evaluation scripts and a review dashboard. Author names, local author paths and identifying repository links are omitted. Public INEP course codes are retained in the underlying data to support exact reproduction; the displayed examples use Program A/B. This masks authorship cues and does not make public institutions unidentifiable or guarantee data anonymity.
 
@@ -37,3 +37,53 @@ Install `google-genai` separately, set `GEMINI_API_KEY` in the environment, then
 ## Review and reuse
 
 This is a supplementary evaluation package, not a new preregistration. No license has been assigned on behalf of the authors; they must select an appropriate reuse license before public release. Raw data remain subject to the source terms. OpenAI Codex assisted with technical checking, targeted corrections, reproduction and figure code. The authors are responsible for the final scientific interpretation.
+
+
+## Additional offline evaluation (v8)
+
+The revision adds ranking ablations and a stress test of the unchanged numeric checker. No participants or new hosted-model outputs are involved. Constructed statements are explicitly labeled and must not be reported as observed Gemini outputs. The prospective execution protocol is in `protocols/offline_evaluation_v8.md`; it was authored with prior knowledge of the existing code and limitations and is not a preregistration or a blind benchmark.
+
+For the additional analysis, use a separate clean Python 3.12 environment to reproduce the actual NumPy version recorded in its results:
+
+```sh
+python -m pip install -r requirements-extra.txt
+python code/extra_evaluation.py --data /path/to/microdados_enade_2025_arq3.txt --outdir reproduced/extra --replicates 200
+```
+
+This script uses the standard library, NumPy, pandas and the included checker/explainer modules. Optional Streamlit and hosted-model imports in the explainer are not required for this offline evaluation. The original predictive evaluation has a different pinned environment in `requirements.txt`; its results were not recomputed or replaced in this revision.
+
+### Ranking
+
+All methods use the same 20 deployed features. Comparators are response share alone and absolute percentage-point deviation from the equal-course national mean share. Ascending feature code breaks ties. The weighted ranking shares on average 6.4743 of seven factors with share ranking (168 identical sets; no identical first factors) and 4.18 with deviation ranking (two identical sets; 57 identical first factors).
+
+Bootstrap analysis samples examinee rows jointly within courses 200 times (seed 20260920), fixing feature selection, importances and national reference. Mean overlap with each method's original top-seven set is 6.7616 (weighted), 6.7069 (share), and 5.0596 (deviation). First-factor retention is 81.1543%, 98.1614%, and 48.1057%, respectively. These are conditional perturbation summaries, not model-refitting uncertainty, population confidence intervals, or evidence of usefulness. Exact selection-boundary ties occur in 24 share rankings and no other original rankings.
+
+### Checker
+
+`results/extra/checker_cases.jsonl` contains 3,822 independently labeled-by-rule constructed statements: 1,393 supported controls and 2,429 erroneous/unsupported cases. Here independently means that the expected label is derived from the intended field and arithmetic, not from whether the checker passes; it does not mean independent researchers or a held-out external benchmark. The unchanged checker flags 328 of 350 fixed +7.3 score mutations, misses the other error types in the suite, and flags no controls. The 22 unflagged mutated values coincide with other permitted values/roundings within tolerance. Word-based errors and unsupported causal claims contain no numeric digits and receive the checker's default fidelity of 1.0 without claim verification.
+
+### Field-bound verifier prototype
+
+`code/field_bound_checker.py` re-scores the same 3,822 statements with a prototype that binds each numeric literal to the payload field named in its clause, recomputes comparisons before checking direction and unit, applies per-field domain ranges, normalises spelled-out numerals, and flags causal phrasing as an unsupported claim type. Run it with `python code/field_bound_checker.py --out results/extra/field_bound_checker_report.json`; it needs only the standard library and the files already in this package.
+
+It flags all 2,429 erroneous statements and none of the 1,393 controls. This is not a performance claim about verification in general: the suite is templated, was authored with knowledge of the mechanism, and is far easier than model prose. Its purpose is to show that the six categories the deployed checker misses are mechanically decidable from the payload, so the gap is an implementation choice rather than a limit of verification. The report also records that the deployed checker admits 40.2 permitted values per course on average (range 32-47), which is why 22 mutated scores coincide with a permitted value. An unscoped normalisation of spelled-out numerals raised 350 false alarms on the rounding controls before the rule was restricted to numerals carrying a decimal or reaching two digits; a stricter verifier needs controls of its own. The prototype is not wired into the artifact and produces no user-facing output.
+
+The test suite demonstrates verification boundaries. It neither adds a semantic verifier to the artifact nor estimates real-world rates of these errors. See the JSON summary and per-course CSVs for complete data. SHA256SUMS covers every distributed file except the manifest itself. Author identities and tracked revisions are not included.
+
+
+## Comparative dashboard (v9)
+The dashboard/ directory adds coordinator and manager views with real-data comparisons. See dashboard/README.md for cohort definitions, source linkage, and evaluation boundaries. Historical results remain unchanged. The public deployment address and author credits are not included.
+
+
+## Figure update (v10)
+Figure 3 now contains actual captures of both comparative dashboard views. Identifiers are masked in code for blind review; observed values are preserved. No new experimental results or user evaluation are claimed.
+
+
+## Illustrative management questions (v11)
+The manuscript reuses its two existing real-data profiles (Programs A and B) and a national descriptive cross-tabulation to illustrate what the dashboard adds to an observed score. Cases were selected retrospectively by the authors; they are not representative sampling, user evaluation, or causal evidence. No model was refitted and no historical result was changed. Run with the Python standard library:
+
+```sh
+python code/case_walkthrough.py --dashboard dashboard/index.html --out reproduced/case_walkthrough.json
+```
+
+The upper-quartile cohort is fixed nationally before excluding the selected course. Each example has 87 reference courses. Indicator medians are recomputed separately for each example. The national manager example uses the course median I6_A share (32.146471%) for a descriptive cross-tabulation, not a validated intervention threshold or a new automatic dashboard filter. All values are in results/case_walkthrough.json.
