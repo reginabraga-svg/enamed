@@ -1,0 +1,89 @@
+{
+  "suite": "checker_cases.jsonl",
+  "n_statements": 3822,
+  "scoped_word_normalisation": true,
+  "by_category": {
+    "correct_mean": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 0,
+      "role": "control"
+    },
+    "correct_median": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 0,
+      "role": "control"
+    },
+    "correct_rounding": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 0,
+      "role": "control"
+    },
+    "score_mutation": {
+      "cases": 350,
+      "deployed_flagged": 328,
+      "field_bound_flagged": 350,
+      "role": "error"
+    },
+    "negative_mean": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 350,
+      "role": "error"
+    },
+    "words_mutation": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 350,
+      "role": "error"
+    },
+    "unsupported_causality": {
+      "cases": 350,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 350,
+      "role": "error"
+    },
+    "correct_comparison": {
+      "cases": 343,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 0,
+      "role": "control"
+    },
+    "wrong_field": {
+      "cases": 343,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 343,
+      "role": "error"
+    },
+    "inverted_comparison": {
+      "cases": 343,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 343,
+      "role": "error"
+    },
+    "wrong_unit": {
+      "cases": 343,
+      "deployed_flagged": 0,
+      "field_bound_flagged": 343,
+      "role": "error"
+    }
+  },
+  "errors": {
+    "cases": 2429,
+    "deployed_flagged": 328,
+    "field_bound_flagged": 2429
+  },
+  "controls": {
+    "cases": 1393,
+    "deployed_false_alarms": 0,
+    "field_bound_false_alarms": 0
+  },
+  "permitted_set_size_per_course": {
+    "mean": 40.21,
+    "min": 32,
+    "max": 47
+  },
+  "mutated_score_collisions": 22
+}
